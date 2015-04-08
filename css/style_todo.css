@@ -1,0 +1,119 @@
+body
+{
+	background-color: #6DBFE0;	 );
+}
+
+#contenedor
+{
+	margin: 0 auto;
+	width: 900px;
+}
+
+.task{
+	/margin: 30px; 	
+	width: 900px; /* ancho */
+	height: 194px; /* alto */
+	float: left;
+	font-family:"arial";
+	color: white;	
+	background-color: #000699;
+
+}
+
+.tabs 
+{ 
+	/* es el rectángulo contenedor */	
+	margin: 0  0 0 0;
+	position: relative;	
+	width: 800px;
+	height: 260px; //alto
+}
+
+.tab { 
+	/* cada una de las pestañas */
+	float: left;
+}
+
+.tab label
+{
+	 /* la parte superior con el título de la pestaña */
+	background-color: #678;
+	border-radius: 5px 5px 0 0;
+	box-shadow: -3px 3px 2px #678 inset;
+	color: #DDD;
+	cursor: pointer;
+	left: 0;
+	margin-right: 1px;
+	padding: 5px 15px;
+	position: relative;
+	text-shadow: 1px 1px #000;
+}
+
+/* el control input sólo lo necesitamos para que las pestañas permanezcan abiertas así que lo ocultamos */
+.tab [type=radio]
+ { 
+	display: none; 
+ }
+
+/* el contenido de las pestañas */
+.content
+ {
+	background-color: #56EDAE;
+	bottom: 0;
+	color: black;
+	left: 0;
+	overflow: hidden;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	top: 23px;
+	width: 860px;
+	height: auto;
+	text-align:center;
+}
+
+
+/* controlamos la pestaña activa */
+[type="radio"]:checked ~ label
+ {
+	background-color: #666;
+	box-shadow: 0 3px 2px #89A inset;
+	color: #FFF;
+	z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .content { z-index: 1; }
+[type=radio]:checked ~ label ~ .content > * {
+opacity: 1;
+
+}
+
+ .izquierda 
+ {
+	float:left;
+	width:960px;
+	margin-right: 50%;
+}
+.derecha 
+{
+	width:480px;
+	float:right;
+}
+
+.h1
+{
+	font-family:"arial";
+	color: blue;
+	font-size:30px;
+	margin-right: 100px;
+	text-align: left;
+}
+
+.h2
+{
+	font-family:"arial";
+	color: black;
+	font-size:10px;
+	float: right;
+}
+

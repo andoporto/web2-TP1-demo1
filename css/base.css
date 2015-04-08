@@ -1,0 +1,207 @@
+
+#contenedor
+{
+	width: 900px;
+	height: 900px;
+}
+
+#encabezado
+{
+	width: auto; /* auto */
+	height: 100px;	/* alto */
+	background-color: #000000;	
+}
+
+#menu
+{
+	color: white;
+	/* background-color: #E83849; */
+	background-color: orange;	
+	height: 30px; /* alto */
+	/* text-align: center; */
+	padding-left: 30px;
+
+	/* float: left; */
+	/* position: absolute; */
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover {
+    background-color: black;
+} 
+
+
+span
+{
+	font-family: Helvetica;
+	text-align: center;
+	color: orange;
+	font-size: 20px;
+	text-decoration: underline;	
+}
+
+#bienvenido 
+{
+	float:left;
+	width: 450px; /* ancho */
+	height: 320px; /* alto */	
+	background-color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+#texto
+{
+	float:left;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 25px;
+	background-color: #FFFFFF;
+}
+
+#texto
+{
+	float: left;
+	width: auto;
+	height: auto;	
+}
+
+
+#pregunta
+{
+	float: center;
+	position: relative;
+	padding-top: 20px;
+	
+}
+
+#galeria
+{
+	float: center;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+
+.album
+{
+	position: relative;
+	float:left;	
+	float:bottom;	
+	margin: 10px; 
+	border-style: solid;
+	border-color: black; 
+	border-width: 2px;
+}
+
+.etiqueta
+{
+	position: relative;	
+	background-color: black;	
+	color: white;
+}
+
+#login
+{
+	float:right; 
+	width: 440px; /* ancho */
+	height: 320px; /* alto */
+	background-color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.naranja
+{
+	/* font-family: Helvetica; */
+	font-family: Arial;
+	color: orange;
+	font-size: 30px;	
+	text-align: left; 
+	float: left;
+}
+
+#delivery
+{
+	float: left;
+	width: auto;
+	height: auto;
+	color: grey;
+	text-align: bottom;
+	/* text-decoration: underline; */
+}
+
+form
+{
+	float: center;
+	width: 300px;
+	height: auto;	
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 50px;
+	padding-right: 10px;
+	border-style: solid;
+	border-color: black; 
+	border-width: 2px;	
+}
+
+
+#galeria
+{
+	float:left; 
+	width: 900px; /* ancho */
+	height: 200px; /* alto */
+	background-color: #FFFFFF;
+}
+
+
+
+
+#pie
+{
+	float: center;
+	
+	/* position: relative; */
+	width: 450px;
+	/* width: auto; */
+	/* height: 100px; /* alto */  
+	height: auto;
+	background-color: #FFFFFF;
+	/* color: white; */
+}
+
+#f1
+{
+	float: left; 
+	/* padding: 5px; */
+	/* background-image: url("imagenes/flecha.png"); */
+	width: 50px;
+	height: 50px;
+	position: relative;	
+}
+
+#contenido
+{
+	position: relative;	
+	text-align: center;
+}
+
+#f2
+{
+	float: right; 
+	/* transform : rotate(0deg); */
+	-moz-transform : rotate(180deg); /* Firefox */
+	-webkit-transform : rotate(180deg); /* Chrome - Safari */
+	-o-transform : rotate(180deg); /* Opera */
+	position: relative;	
+	
+}
+

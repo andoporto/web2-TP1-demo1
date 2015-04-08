@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8"></meta>
+		<link rel= "stylesheet" type= "text/css" href= "../css/style_todo.css"></link>
+		<title>Lista de tareas TP1</title>
+		</head>
+		<body>
+		<div id= "contenedor">
+			<div class="encabezado">
+				<!-- <h1><p>Mis tareas<p></h1> -->
+	
+				<div class="izquierda">
+				<div class= h1 >
+							Mis tareas
+				</div>
+			</div>	 
+			<div class="derecha">
+				<div class= h2 >
+					Bienvenido, Andr&eacutes
+				</div>				
+		</div>
+					
+		<div class="task">
+			<br/>
+			<form  id="formu" action="ToDo.html">			
+				<input type= "text" name="nombre" size="30">
+				<select name="tiempo">
+				<OPTION VALUE="1">Prioritaria</OPTION>
+				<OPTION VALUE="1">No prioritaria</OPTION>
+				<br/><br/>
+				<input type="checkbox" name="recurrente">Recurrente
+				<br/><br/>
+				<input type="checkbox" name="lu">lunes
+				<input type="checkbox" name="ma">martes
+				<input type="checkbox" name="mi">mi&eacutercoles
+				<input type="checkbox" name="ju">jueves
+				<input type="checkbox" name="vi">viernes
+				<input type="checkbox" name="sa">s&aacutebado
+				<input type="checkbox" name="do">domingo
+				<br/><br/>
+				Duracion: <select name="tiempo">
+				<OPTION VALUE="1">15'</OPTION>
+				<OPTION VALUE="1">30'</OPTION>
+				<OPTION VALUE="1">45'</OPTION>
+				<OPTION VALUE="1">60'</OPTION>
+				<br/><br/><br/>
+				<input type= "date" name="fecha" size="30">
+				<input type= "time" name="hora" size="30">
+				<br/><br/>
+				<input type="checkbox" name="alarma">Alarma
+				<br/>
+				<input type="submit" value="guardar">
+			</form>
+			<br>
+			<div id="tabla">
+
+			<div class="tabs">
+			   <div class="tab">
+				   <input type="radio" id="tab-1" name="tab-group-1" checked>
+				   <label for="tab-1">Hoy</label>		   
+				   <div class="content"> 
+					   <table border="1" cellpadding="0" cellspacing="0">
+							<tr>	
+								<td></td>
+								<td>Hora</td>
+								<td>Detalle</td>
+								<td>Duraci&oacuten</td>
+								<td>Prioridad</td>
+								<td>Acciones</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" name="uno"</td>
+								<td>09:00</td>
+								<td>Alimentar al perro</td>
+								<td>60'</td>
+								<td>Alta</td>
+								<td>Editar</td>
+							</tr>		
+							<tr>
+								<td><input type="checkbox" name="dos"</td>
+								<td>10:00</td>
+								<td>Pasear al perro</td>
+								<td>15'</td>
+								<td>Alta</td>
+								<td>Editar</td>
+							</tr>		
+							<tr>
+								<td><input type="checkbox" name="tres"</td>
+								<td>11:00</td>
+								<td>Arropar al perro</td>
+								<td>15'</td>
+								<td>Baja</td>
+								<td>Editar</td>
+							</tr>	
+							<tr>
+								<td><input type="checkbox" name="cuatro"</td>
+								<td>16:00</td>
+								<td>Alimentar al gato</td>
+								<td>60'</td>
+								<td>Alta </td>
+								<td>Editar</td>
+							</tr>	
+							<tr>
+								<td><input type="checkbox" name="cinco"</td>
+								<td>17:00</td>
+								<td>Pasear al gato</td>
+								<td>15'</td>
+								<td>Alta</td>
+								<td>Editar</td>
+							</tr>		
+							<tr>
+								<td><input type="checkbox" name="seis"</td>
+								<td>18:00</td>
+								<td>Arropar al gato</td>
+								<td>15'</td>
+								<td>Alta</td>
+								<td>Editar</td>
+							</tr>	
+							<tr>
+								<td><input type="checkbox" name="siete"</td>
+								<td>19:00</td>
+								<td>Cambiar el agua a los peces</td>
+								<td>45'</td>
+								<td>Alta</td>
+								<td>Editar</td>
+							</tr>					
+						</table>
+					 </div>
+				</div>
+		   
+		   <div class="tab">
+			   <input type="radio" id="tab-2" name="tab-group-1">
+			   <label for="tab-2">Ma&ntildeana</label>
+			   <div class="content"> 
+					 <table border="1" cellpadding="0" cellspacing="0">
+					<tr>
+							<td></td>
+							<td>Hora</td>
+							<td>Detalle</td>
+							<td>Duraci&oacuten</td>
+							<td>Prioridad</td>
+							<td>Acciones</td>
+					</tr>
+						<tr>
+							<td><input type="checkbox" name="uno"</td>
+							<td>08:00</td>
+							<td>Pasear a Pupino</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>		
+						<tr>
+							<td><input type="checkbox" name="dos"</td>
+							<td>09:00</td>
+							<td>Pasear a Hory</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>		
+						<tr>
+							<td><input type="checkbox" name="tres"</td>
+							<td>10:00</td>
+							<td>Pasear a  Sol</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>	
+						<tr>
+							<td><input type="checkbox" name="cuatro"</td>
+							<td>11:00</td>
+							<td>Pasear a Cachy</td>
+							<td>60'</td>
+							<td>Alta </td>
+							<td>Editar</td>
+						</tr>	
+						<tr>
+							<td><input type="checkbox" name="cinco"</td>
+							<td>13:00</td>
+							<td>Pasear a Camy</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>		
+						<tr>
+							<td><input type="checkbox" name="seis"</td>
+							<td>14:00</td>
+							<td>Pasear a Amarillito</td>
+							<td>60'</td>
+							<td>Baja</td>
+							<td>Editar</td>
+						</tr>	
+						<tr>
+							<td><input type="checkbox" name="siete"</td>
+							<td>15:00</td>
+							<td>Pasear a Negry</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>					
+					</table>
+			  </div>
+			</div>
+			<div class="tab">
+			   <input type="radio" id="tab-3" name="tab-group-1">
+			   <label for="tab-3">Otros d&iacuteas</label>
+			   <div class="content">
+					<table border="1" cellpadding="0" cellspacing="0">
+						<tr>
+							<td></td>
+							<td>Hora</td>
+							<td>Detalle</td>
+							<td>Duraci&oacuten</td>
+							<td>Prioridad</td>
+							<td>Acciones</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="uno"</td>
+							<td>09:00</td>
+							<td>Aprender Java</td>
+							<td>60'</td>
+							<td>Alta</td>
+							<td>Editar</td>
+						</tr>		
+					<tr>
+						<td><input type="checkbox" name="dos"</td>
+						<td>10:00</td>
+						<td>Aprender C#</td>
+						<td>60'</td>
+						<td>Alta</td>
+						<td>Editar</td>
+					</tr>		
+					<tr>
+						<td><input type="checkbox" name="tres"</td>
+						<td>11:00</td>
+						<td>Aprender HTML5 & CSS3</td>
+						<td>60'</td>
+						<td>Media</td>
+						<td>Editar</td>
+					</tr>	
+					<tr>
+						<td><input type="checkbox" name="cuatro"</td>
+						<td>12:00</td>
+						<td>Aprender Oracle</td>
+						<td>60'</td>
+						<td>Media</td>
+						<td>Editar</td>
+					</tr>	
+					<tr>
+						<td><input type="checkbox" name="cinco"</td>
+						<td>14:00</td>
+						<td>Aprender Corel Draw</td>
+						<td>60'</td>
+						<td>Media</td>
+						<td>Editar</td>
+					</tr>		
+					<tr>
+						<td><input type="checkbox" name="seis"</td>
+						<td>15:00</td>
+						<td>Aprender Corel Painter</td>
+						<td>60'</td>
+						<td>Media</td>
+						<td>Editar</td>
+					</tr>	
+					<tr>
+						<td><input type="checkbox" name="siete"</td>
+						<td>16:00</td>
+						<td>Aprender Adobe PhotoShop</td>
+						<td>60'</td>
+						<td>Media</td>
+						<td>Editar</td>
+					</tr>					
+			</table>
+		   </div>
+	   </div>
+	</div>
+			</div>
+	</div>		
+			
+		
+</div>
+	</body>
+
+</html>
